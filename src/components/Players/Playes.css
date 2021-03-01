@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+}
+.player-info{
+    width: 70%; 
+    margin:auto;  
+}
+.player-info h1{
+    text-align: center;
+    margin-bottom: 20px;
+}

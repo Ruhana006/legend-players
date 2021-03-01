@@ -1,0 +1,23 @@
+.display-players{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;   
+}
+.player-details{
+    width: 500px;
+}
+.player-details h4{
+    margin-left: 50px;
+    color: teal;
+}
+.add-btn{
+    margin-left: 50px;
+    height: 40px;
+    width: 150px;
+    border-radius:5px;
+    border: 0;
+    color: white;
+    background-image: linear-gradient(darkcyan,rgb(138, 224, 224));
+}
+    
+    

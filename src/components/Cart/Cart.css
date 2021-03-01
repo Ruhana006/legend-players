@@ -1,0 +1,9 @@
+.cart{
+    text-align:left;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px gray;
+    padding: 20px 20px; 
+}
+.cart h1{
+    color: darkcyan;
+}

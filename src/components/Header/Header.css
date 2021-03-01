@@ -1,0 +1,22 @@
+.header{
+    text-align: center;
+}
+.header h1{
+    font-style:italic;
+    font-weight: 700;
+    color:darkcyan;
+}
+.header nav{
+    background-color: black;
+    line-height: 50px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: gray;
+}
