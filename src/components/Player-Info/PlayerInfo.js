@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './PlayerInfo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 const PlayerInfo = (props) => {
-    const { name, image, club, salary } = props.player
+    const { name, image, club, salary } = props.player;
+    const [isClicked, setIsClicked] = useState(false)
 
     return (
         <div className="display-players">
@@ -15,10 +16,13 @@ const PlayerInfo = (props) => {
                 <h1>{name}</h1>
                 <h4>Club: {club}</h4>
                 <h4>Salary: ${salary} million</h4>
-                <button className='add-btn' onClick={() => props.handleAddPlayer(props.player)}><FontAwesomeIcon icon={faPlus} />Add Player</button>
+                <button className='add-btn'disabled={isClicked} onClick={() => 
+                    {props.handleAddPlayer(props.player)
+                    setIsClicked(true)}}>
+                    <FontAwesomeIcon icon={faPlus} />Add Player</button>
             </div>
         </div>
     );
-};
+}
 
 export default PlayerInfo;
