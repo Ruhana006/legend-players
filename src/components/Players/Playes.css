@@ -6,6 +6,7 @@
     margin:auto;  
 }
 .player-info h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
     margin-bottom: 20px;
 }

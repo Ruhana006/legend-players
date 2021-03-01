@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Players from './components/Players/Players';
-import { useEffect, useState } from 'react';
+import { useEffect} from 'react';
 
 function App() {
   useEffect(()=>{
@@ -10,9 +10,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Players></Players>
-      
-      
+      <Players></Players> 
     </div>
   );
 }
