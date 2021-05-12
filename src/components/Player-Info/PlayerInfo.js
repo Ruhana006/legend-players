@@ -19,7 +19,7 @@ const PlayerInfo = (props) => {
                 <button className='add-btn'disabled={isClicked} onClick={() => 
                     {props.handleAddPlayer(props.player)
                     setIsClicked(true)}}>
-                    <FontAwesomeIcon icon={faPlus} />Add Player</button>
+                    <FontAwesomeIcon icon={faPlus} />Add New Player</button>
             </div>
         </div>
     );
